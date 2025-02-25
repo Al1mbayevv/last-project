@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.navbar h1 {
+  margin-left: 20px;
+}
+
+.hrefs a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.products-container {
+  height: 400px;
+  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.products :nth-child(1) {
+  height: 400px;
+}
+
+.products button {
+  height: 30px;
+  border-radius: 16px;
+}
